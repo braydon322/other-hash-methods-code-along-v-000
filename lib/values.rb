@@ -9,10 +9,13 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
+  new_array =[]
   groceries.values.each do |individual|
     individual.each do |item|
-      puts item
+      new_array << item
     end
   end
+
+  return new_array
   #code your solution here!
 end

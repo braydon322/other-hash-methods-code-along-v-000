@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   new_array =[]
-  groceries.values 
+  groceries.values
 
 end

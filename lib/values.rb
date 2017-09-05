@@ -12,7 +12,7 @@ def get_the_values(groceries)
   new_array =[]
   groceries.values.each do |items|
     items.each do |item|
-      puts item
+      new_array << item
     end
   end
 

@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values.to_str
+  groceries.values
   #code your solution here!
 end

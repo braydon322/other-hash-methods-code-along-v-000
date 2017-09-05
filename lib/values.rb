@@ -12,6 +12,7 @@ def get_the_values(groceries)
   groceries.values.each do |individual|
     individual.each do |item|
       puts item
+    end
   end
   #code your solution here!
 end

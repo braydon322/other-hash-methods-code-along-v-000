@@ -14,6 +14,7 @@ def get_the_values(groceries)
     keys.each do |values|
       values.each do |items|
         new_array << items
+      end
     end
   end
 

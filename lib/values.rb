@@ -11,7 +11,9 @@ require 'pry'
 def get_the_values(groceries)
   new_array =[]
   groceries.values.each do |items|
-    puts items
+    items.each do |item|
+      puts item
+    end
   end
 
 end

@@ -10,10 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   new_array =[]
-  groceries.each do |keys|
-    keys.each do |values|
-      binding.pry
-      values.each do |items|
+  groceries.values.each do |items|
         binding.pry
         new_array << items
       end

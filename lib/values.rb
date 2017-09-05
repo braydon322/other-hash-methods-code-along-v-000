@@ -10,7 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   groceries.values.each do |individual|
-    puts individual.to_str
+    puts individual.to_s
   end
   #code your solution here!
 end

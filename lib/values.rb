@@ -13,6 +13,7 @@ def get_the_values(groceries)
   groceries.each do |keys|
     keys.each do |values|
       values.each do |items|
+        binding.pry
         new_array << items
       end
     end
